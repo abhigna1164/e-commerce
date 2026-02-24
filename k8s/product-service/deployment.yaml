@@ -32,7 +32,7 @@ spec:
       containers:
         - name: product-service
           # IMAGE_TAG will be replaced by CI pipeline
-          image: us-central1-docker.pkg.dev/deployment-488407/ecommerce-repo/product-service:latest
+          image: us-central1-docker.pkg.dev/cicd1164/ecommerce-repo/product-service:latest
           imagePullPolicy: Always
           ports:
             - name: http

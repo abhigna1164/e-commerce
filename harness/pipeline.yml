@@ -231,7 +231,7 @@ pipeline:
   variables:
     - name: gcp_project_id
       type: String
-      value: deployment-488407
+      value: cicd1164
       description: "GCP Project ID"
     - name: environment
       type: String
