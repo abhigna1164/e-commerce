@@ -94,8 +94,8 @@ gcloud services enable container.googleapis.com artifactregistry.googleapis.com 
   compute.googleapis.com iam.googleapis.com
 
 # Create Terraform state bucket
-gsutil mb -p $PROJECT_ID -l us-central1 gs://tf-state-ecommerce
-gsutil versioning set on gs://tf-state-ecommerce
+gsutil mb -p $PROJECT_ID -l us-central1 gs://tf-state-ecommerce2
+gsutil versioning set on gs://tf-state-ecommerce2
 ```
 
 ### 2. Provision GKE with Terraform

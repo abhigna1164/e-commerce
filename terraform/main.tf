@@ -12,9 +12,9 @@ terraform {
   }
 
   # Remote state in GCS — create this bucket manually first:
-  # gsutil mb -p YOUR_PROJECT_ID -l us-central1 gs://tf-state-ecommerce
+  # gsutil mb -p YOUR_PROJECT_ID -l us-central1 gs://tf-state-ecommerce2
   backend "gcs" {
-    bucket = "tf-state-ecommerce"
+    bucket = "tf-state-ecommerce2"
     prefix = "terraform/state"
   }
 }
