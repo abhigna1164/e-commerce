@@ -231,7 +231,7 @@ pipeline:
   variables:
     - name: gcp_project_id
       type: String
-      value: brilliant-tide-453616-r9
+      value: deployment-488407
       description: "GCP Project ID"
     - name: environment
       type: String
